@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+
+* {
+	font-family: "Tajawal", sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: whitesmoke;
+	direction: rtl;
+}
+
+#mother {
+	width: 100%;
+	font-size: 20px;
+	position: relative;
+}
+
+#div img {
+	width: 80%;
+	margin-bottom: 30px;
+}
+
+main {
+	float: left;
+	border: 1px solid gray;
+	padding: 5px;
+	margin: 20px 0 20px 20px;
+}
+
+input {
+	padding: 4px;
+	width: 100%;
+	text-align: center;
+	font-size: 17px;
+	outline: none;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+aside {
+	text-align: center;
+	width: 300px;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	right: 0;
+	float: right;
+	border: 1px solid gray;
+	padding: 10px;
+	font-size: 20px;
+	background-color: silver;
+}
+
+aside button {
+	display: block;
+	width: 100%;
+	margin-top: 10px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#tbl {
+	width: 60vw;
+	font-size: 20px;
+}
+
+#tbl th,
+td {
+	background-color: silver;
+	font-size: 20px;
+	padding: 10px;
+}
+
+#tbl td {
+	text-align: center;
+	color: blueviolet;
+	font-weight: bold;
+}

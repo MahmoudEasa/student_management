@@ -1,0 +1,10 @@
+Databases:
+student1
+---------------
+Table:
+student
+---------------
+id
+name
+address
+=========================
