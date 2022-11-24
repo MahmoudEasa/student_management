@@ -16,6 +16,8 @@
         $db = "student1";
         $con = mysqli_connect($host, $user, $pass, $db);
         $res = mysqli_query($con, "select * from student");
+        // $queryUpdate = "update student set name='rakwan' where id=1";
+        // $queryDelete = "delete from student where id=1";
 
         // Button Variable --
         $id = "";
